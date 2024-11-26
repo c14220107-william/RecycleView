@@ -8,11 +8,21 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/rvWayang">
+        android:layout_height="wrap_content">
 
-    </androidx.recyclerview.widget.RecyclerView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rvWayang">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    </ScrollView>
+
+
 
 </LinearLayout>
